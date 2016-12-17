@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:FBAutomator">
+    <ControlTemplate x:Key="ButtonCon" TargetType="{x:Type Button}">
+        <Grid Height="25.706" Margin="4.253,0,-20.5,0" Background="#00000000">
+            <TextBlock x:Name="textBlock" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="12.149,3.545,17.882,3.546" TextWrapping="Wrap" Text="ButtonText" Width="Auto" Background="#FC000000" Foreground="#FFB4B4B4"/>
+        </Grid>
+    </ControlTemplate>
+
+</ResourceDictionary>

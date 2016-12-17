@@ -1,0 +1,18 @@
+﻿<Window x:Class="FBAutomator.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FBAutomator"
+        mc:Ignorable="d"
+        Title="Splash" Height="625" Width="927" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Icon="facebook.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="Splash.png" />
+    </Window.Background>
+    <Grid>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="46" Margin="65,392,0,0" VerticalAlignment="Top" Width="805"/>
+        <Label x:Name="progressBarLabel" Content="Label" HorizontalAlignment="Left" Height="39" Margin="65,443,0,0" VerticalAlignment="Top" Width="805" Foreground="#FFECECEC" FontSize="20"/>
+        <WebBrowser x:Name="wb" HorizontalAlignment="Left" Height="329" Margin="65,39,0,0" VerticalAlignment="Top" Width="805" LoadCompleted="wb_LoadComplete" Navigated="wb_Navigated_1" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
